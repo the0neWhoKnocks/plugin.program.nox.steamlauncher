@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+  <section id="plugin.program.nox.steamlauncher">
+    <category label="General">
+      <setting id="steam_path" type="file" label="Steam Executable Path">
+        <level>0</level>
+        <default>C:\Program Files (x86)\Steam\steam.exe</default>
+        <constraints>
+          <mask encoding="UTF-8">*.exe</mask>
+        </constraints>
+      </setting>
+      <setting id="use_bpm" type="boolean" label="Launch in Big Picture Mode">
+        <level>0</level>
+        <default>true</default>
+      </setting>
+    </category>
+  </section>
+</settings>
