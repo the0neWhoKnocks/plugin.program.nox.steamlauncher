@@ -17,12 +17,12 @@
     <platform>windx</platform> <!-- linux osx windx -->
     <language>en</language>
     <source>https://github.com/the0neWhoKnocks/plugin.program.nox.steamlauncher</source>
+    <assets>
+      <banner>resources/media/banner.jpg</banner>
+      <fanart>resources/media/fanart.jpg</fanart>
+      <icon>resources/media/icon.png</icon>
+      <logo>resources/media/logo.png</logo>
+      <screenshot>resources/media/screenshot-01.jpg</screenshot>
+    </assets>
   </extension>
-  <assets>
-    <banner>resources/media/banner.jpg</banner>
-    <fanart>resources/media/fanart.jpg</fanart>
-    <icon>resources/media/icon.png</icon>
-    <logo>resources/media/logo.png</logo>
-    <screenshot>resources/media/screenshot-01.jpg</screenshot>
-  </assets>
 </addon>

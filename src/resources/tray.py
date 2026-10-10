@@ -43,18 +43,18 @@ def create_tray_icon(icon_path):
   nid.uID = 1
   nid.uFlags = NIF_ICON | NIF_TIP
   nid.hIcon = hicon
-  nid.szTip = b"Kodi Steam Launcher Active"
+  nid.szTip = b"Kodi Steam Launcher"
 
   # Add to system tray
   shell32.Shell_NotifyIconA(NIM_ADD, ctypes.byref(nid))
   
-  try:
-    # Keep process alive until main plugin terminates it
-    while True:
-      time.sleep(1)
-  finally:
-    # Clean up icon when closed
-    shell32.Shell_NotifyIconA(NIM_DELETE, ctypes.byref(nid))
+  # try:
+  #   # Keep process alive until main plugin terminates it
+  #   while True:
+  #     time.sleep(1)
+  # finally:
+  #   # Clean up icon when closed
+  #   shell32.Shell_NotifyIconA(NIM_DELETE, ctypes.byref(nid))
 
 if __name__ == "__main__":
   if len(sys.argv) > 1 and os.path.exists(sys.argv[1]):

@@ -1,0 +1,41 @@
+# Kodi Media Center language file
+# Addon Name: Steam Launcher
+# Addon id: plugin.program.nox.steamlauncher
+# Addon Provider: Nox
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (https://kodi.weblate.cloud/languages/en_gb/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Catergories ==================================================================
+
+msgctxt "#50050"
+msgid "General"
+msgstr ""
+
+#General settings
+
+msgctxt "#50051"
+msgid "[Steam] Location"
+msgstr ""
+
+msgctxt "#50052"
+msgid "[Steam] Big Picture mode"
+msgstr ""
+
+msgctxt "#50053"
+msgid "[Kodi] Location"
+msgstr ""
+
+msgctxt "#50054"
+msgid "[Kodi] Run in Portable mode"
+msgstr ""
